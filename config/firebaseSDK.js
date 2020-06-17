@@ -73,8 +73,8 @@ class FirebaseSDK {
                     () => {
 
                     },
-                    reject
-                        () => resolve(task.snapshot.downloadURL)
+                    reject,
+                    () => resolve(task.snapshot.downloadURL)
                 );
             });
         } catch (err) {
