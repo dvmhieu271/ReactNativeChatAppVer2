@@ -58,7 +58,7 @@ export default class Login extends React.Component {
                 <Text style={styles.title}>Email:</Text>
                 <TextInput
                     style={styles.nameInput}
-                    placeHolder="test3@gmail.com"
+                    placeHolder="test@yahoo.com"
                     onChangeText={this.onChangeTextEmail}
                     value={this.state.email}
                 />
