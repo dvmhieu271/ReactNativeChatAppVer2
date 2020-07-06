@@ -16,9 +16,9 @@ import firebaseSDK from '../config/firebaseSDK';
 
 export default class Signup extends React.Component {
     state = {
-        name: 'no name',
-        email: 'test@live.com',
-        password: '123456',
+        name: 'Hieu',
+        email: 'dvmhieu271@yahoo.com',
+        password: '12345678',
         avatar: ''
     };
 

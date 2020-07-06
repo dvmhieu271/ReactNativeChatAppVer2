@@ -70,9 +70,7 @@ class FirebaseSDK {
             return new Promise((resolve, reject) => {
                 task.on(
                     'state_changed',
-                    () => {
-
-                    },
+                    () => {},
                     reject,
                     () => resolve(task.snapshot.downloadURL)
                 );
